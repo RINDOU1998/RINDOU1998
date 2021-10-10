@@ -80,23 +80,21 @@ ul {
     flex: 60%;
     text-align: center;
 }
-
-#notification {
+/*?*/
+notification {
     color: #bfbfbf;
 }
 
-#deckCount {
+deckCount {
     padding: 0;
     margin: 0;
 }
 
-#timer {
+timer {
     font-family: "Lucida Console", Monaco, monospace;
 }
 
-/* #r4 {
-    visibility: hidden;
-} */
+
 
 .bg-modal {
     width: 100vw;
@@ -130,7 +128,7 @@ ul {
     border-radius: 30px;
 }
 .button {
-    background-color: green;
+    background-color: blue;
     border: none;
     color: white;
     padding: 15px 25px;
@@ -190,7 +188,7 @@ input {
     display: none;
 }
 
-#winner {
+winner {
     text-align: center;
     font-size: 3em;
     padding-bottom: 30px;
@@ -220,6 +218,3 @@ input {
     padding: 30px;
 }
 
-#invalid-player {
-    color: red;
-}
