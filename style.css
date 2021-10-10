@@ -1,0 +1,225 @@
+* { 
+    box-sizing: border-box;
+}
+
+html {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,115,0.9206057422969187) 35%, rgba(0,212,255,1) 100%);
+   
+}
+/* body {
+    background-image: url('Background.jpg'); 
+} */
+
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.title {
+    font-size: 50px;
+    color:rgb(255, 245, 98);
+
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 15px;
+}
+
+td {
+    background-color: white;
+    border: 5px solid #bfbfbf;
+}
+
+td {
+    height: 80px;
+    width: 135px;
+    vertical-align: center;
+    text-align: center;
+}
+
+ul {
+    color: red;
+    display: table;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    padding: 10px;
+}
+
+.left {
+    flex:  25%;
+}
+
+.center {
+    flex: 50%;
+}
+
+.right {
+    flex: 25%;
+    visibility: hidden;
+}
+
+.bottom {
+    text-align: center;
+}
+
+.topright {
+    flex: 40%;
+    text-align: center;
+}
+
+.topleft {
+    flex: 60%;
+    text-align: center;
+}
+
+#notification {
+    color: #bfbfbf;
+}
+
+#deckCount {
+    padding: 0;
+    margin: 0;
+}
+
+#timer {
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+/* #r4 {
+    visibility: hidden;
+} */
+
+.bg-modal {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.game-info {
+    font-size: 40px;
+}
+
+.game-info-container {
+    justify-content: center;
+    align-items: center;
+
+}
+.modal-content {
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    align-content: center;
+    text-align: center;
+    padding: 30px;
+    border-radius: 30px;
+}
+.button {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.card {
+    cursor: pointer;
+    transition: 200ms color ease-in;
+    width: 100px;
+    height: 95px;
+}
+
+.card:hover {
+    color: gray;
+}
+input {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    margin: 15px auto;
+}
+
+.scores1 {
+    text-align: center;
+    color:blueviolet;
+    text-shadow: 0 0 10px rgb(255, 197, 131),0 0 20px rgb(233, 207, 233),0 0 30px rgb(245, 236, 245),0 0 40px rgb(228, 213, 228);	
+
+}
+.scores2 {
+    text-align: center;
+    color:blue;
+    text-shadow: 0 0 10px rgb(255, 197, 131),0 0 20px rgb(233, 207, 233),0 0 30px rgb(245, 236, 245),0 0 40px rgb(228, 213, 228);	
+
+}
+
+.timer {
+    text-align: center;
+    color: white;
+}
+
+.game-over-modal {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+#winner {
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 30px;
+}
+
+.start-modal {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.modal-content-start {
+    height:200px;
+    width: 350px;
+    border-radius: 20px;
+    background-color: white;
+    align-content: center;
+    text-align: center;
+    padding: 30px;
+}
+
+#invalid-player {
+    color: red;
+}
